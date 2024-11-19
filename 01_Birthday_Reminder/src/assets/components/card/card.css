@@ -1,0 +1,27 @@
+.card {
+  background-color: blueviolet;
+  padding: 20px;
+  width: 30%;
+}
+.usersList {
+}
+.userContainer {
+  display: flex;
+}
+
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.userDesc {
+}
+.userName {
+}
+.userAge {
+}
+.clrBtn {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
