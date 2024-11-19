@@ -4,14 +4,16 @@ import People from "../../../data";
 
 const Card = () => {
   const [people, setPeople] = useState(People);
+  const [count, setCount] = useState(people.length);
 
   const handleClick = () => {
     setPeople([]);
+    setCount(0);
   };
 
   return (
     <div className="card">
-      <h1 className="title">5 Birthdays Today</h1>
+      <h1 className="title">{count} Birthdays Today</h1>
       <div className="usersList">
         {people.map((user) => (
           <div className="userContainer" key={user.id}>
