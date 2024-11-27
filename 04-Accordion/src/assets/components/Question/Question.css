@@ -1,0 +1,20 @@
+.question-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-collapse {
+  background-color: rgba(0, 0, 0, 0.384);
+  color: white;
+  padding: 10px;
+}
+
+.answer {
+  width: 90%;
+  text-align: left;
+}
+.answer-none {
+  display: none;
+}
