@@ -1,0 +1,22 @@
+.tabs-container {
+  display: flex;
+  padding: 80px 150px;
+}
+.sidebar {
+  flex: 1;
+}
+.sidebar-row {
+  display: flex;
+  gap: 50px;
+}
+.sidebar-row:hover {
+}
+.content-section {
+  flex: 3;
+}
+.vertical-bar {
+  height: 20px;
+  width: 2px;
+  background-color: rgba(0, 174, 255, 0.856);
+  display: none;
+}
